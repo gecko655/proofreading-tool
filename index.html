@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文書校正ツール</title>
+</head>
+<style type="text/css">@import url("assets/dist/vendor.bundle.css");</style>
+<style type="text/css">
+  /* https://jp.vuejs.org/v2/api/index.html#v-cloak */
+  [v-cloak] {
+    display: none;
+  }
+</style>
+<body>
+<div id="vue" @dragleave.prevent @dragover.prevent @drop.prevent="onDrop" style="width:100vw;height:100vh">
+  <div class="text-center">
+    <button class="btn btn-primary btn-block" @click="openTextlintConfig()">設定ファイルを開く</button>
+  </div>
+  <div class="text-center" style="font-size:x-large;margin-top:2rem" v-if="!isUploading">
+    <span>ここにファイルをコピー＆ペーストしてください</span>
+  </div>
+  <!-- スピナー -->
+  <div style="margin-top:2rem;" class="text-center">
+    <div class="spinner-border" v-if="isUploading" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="alert alert-dark" role="alert" v-cloak v-if="hasFileName()"><b>{{fileName}}</b> を校正しました</div>
+  <ul class="list-group" v-if="ok">
+    <li class="list-group-item list-group-item-success" v-cloak>
+      <h3>エラーはありません。</h3>
+    </li>
+  </ul>
+  <ul class="list-group" v-else>
+    <li class="list-group-item list-group-item-danger" v-for="result in proofreadResults" v-cloak>
+      <h3>{{result.Description}}</h3>
+      <ul class="list-group">
+        <li class="list-group-item" v-for="violation in result.Violations" v-cloak>
+          <p>{{violation.Message}}</p>
+          <small class="text-muted">
+            <p v-highlight-range:[violation]>{{violation.ViolatedSection}}</p>
+          </small>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <p v-cloak style="white-space: pre;">{{errorMsg}}</p>
+</div>
+<style>
+mark {
+  background: orange;
+}
+
+#dropzone {
+  text-align: center;
+}
+</style>
+<script src="assets/dist/index.js"></script>
+<script src="assets/dist/vendor.bundle.js"></script>
+</body>
+</html>
