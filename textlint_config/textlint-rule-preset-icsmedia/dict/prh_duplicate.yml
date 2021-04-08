@@ -1,0 +1,137 @@
+meta:
+  - title: 間違いやすい慣用表現ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: コラム
+    patterns: コラム欄
+    prh: （重言）
+  - expected: ご自愛ください
+    pattern: お体をご自愛ください
+    prh: （重言）
+  - expected: デビュー
+    pattern: 初デビュー
+    prh: （重言）
+  - expected: バックした
+    pattern: 後ろへバックした
+    prh: （重言）
+  - expected: メーカー
+    pattern: 製造メーカー
+    prh: （重言）
+  - expected: ラストシーン
+    pattern: 最後のラストシーン
+    prh: （重言）
+  - expected: 今
+    pattern: 今、現在
+    prh: （重言）
+  - expected: 内定する
+    pattern: 内定が決まる
+    prh: （重言）
+  - expected: 最初
+    pattern: いちばん最初
+    prh: （重言）
+  - expected: 最初に
+    pattern: まず最初に
+    prh: （重言）
+  - expected: 最後
+    pattern: いちばん最後
+    prh: （重言）
+  - expected: 最適
+    patterns:
+      - 最も最適
+      - もっとも最適
+    prh: （重言）
+  - expected: 切り札
+    pattern: 最後の切り札
+    prh: （重言）
+  - expected: 募金を呼び掛ける
+    pattern: 募金を募る
+    prh: （重言）
+  - expected: 半数を超える
+    pattern: 過半数を超える
+    prh: （重言）
+  - expected: 収入があった
+    pattern: 収入が入った
+    prh: （重言）
+  - expected: 増水
+    pattern: 水が増水
+    prh: （重言）
+  - expected: 壮大な眺め
+    pattern: 壮観な眺め
+    prh: （重言）
+  - expected: 変色する
+    pattern: 色が変色する
+    prh: （重言）
+  - expected: 年内に
+    pattern: 年内中に
+    prh: （重言）
+  - expected: 後悔する
+    pattern: 後で後悔する
+    prh: （重言）
+  - expected: 従来
+    patterns:
+      - 従来から
+      - 従来より
+    prh: （重言）
+  - expected: 必要
+    pattern: 必ず必要
+    prh: （重言）
+  - expected: 懸念
+    pattern: かねてからの懸念
+    prh: （重言）
+  - expected: 挙式
+    pattern: 挙式を挙げる
+    prh: （重言）
+  - expected: 捺印する
+    pattern: 捺印を押す
+    prh: （重言）
+  - expected: 放水
+    pattern: 水を放水
+    prh: （重言）
+  - expected: 断言する
+    pattern: はっきりと断言する
+    prh: （重言）
+  - expected: 時期尚早
+    pattern: まだ時期尚早
+    prh: （重言）
+  - expected: 未完成
+    pattern: いまだに未完成
+    prh: （重言）
+  - expected: 未解決
+    pattern: まだ未解決
+    prh: （重言）
+  - expected: 来日
+    pattern: 日本に来日
+    prh: （重言）
+  - expected: 炎天下
+    pattern: 炎天下のもと
+    prh: （重言）
+  - expected: 熟慮する
+    pattern: 慎重に熟慮する
+    prh: （重言）
+  - expected: 現状
+    pattern: 今の現状
+    prh: （重言）
+  - expected: 発端
+    pattern: そもそもの発端
+    prh: （重言）
+  - expected: 範囲内で
+    pattern: 範囲内の中で
+    prh: （重言）
+  - expected: 罪を犯す
+    pattern: 犯罪を犯す
+    prh: （重言）
+  - expected: 肴
+    pattern: 酒の肴
+    prh: 「酒のアテ」でもいいかも（重言）
+  - expected: 落馬
+    pattern: 馬から落馬
+    prh: （重言）
+  - expected: 血痕が
+    pattern: 血痕の跡が
+    prh: （重言）
+  - expected: 車間距離
+    pattern: 車の車間距離
+    prh: （重言）
+  - expected: 追い込み
+    pattern: 最後の追い込み
+    prh: （重言）

@@ -1,0 +1,75 @@
+meta:
+  - title: 冗長な日本語表現ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: いたします
+    pattern: させていただきます
+    prh: 二重敬語です（冗長な表現）
+  - expected: うかがいます
+    pattern: うかがわせていただきます
+    prh: （冗長な表現）
+  - expected: おっしゃる
+    pattern: おっしゃられる
+    prh: 尊敬語の二重敬語（冗長な表現）
+  - expected: おっしゃる通り
+    pattern: おっしゃられる通り
+    prh: 過剰な敬語（冗長な表現）
+  - expected: お送りします
+    pattern: お送りさせていただきます
+    prh: 過剰な敬語（冗長な表現）
+  - expected: がある
+    pattern: があるものである
+    prh: 冗長な表現ではないでしょうか？（冗長な表現）
+  - expected: ご覧いただけましたか
+    pattern: 拝見されましたか
+    prh: 過剰な敬語（冗長な表現）
+  - expected: ご覧になる
+    pattern: ご覧になられる
+    prh: 過剰な敬語（冗長な表現）
+  - expected: します
+    pattern: していきます
+    prh: 冗長な表現ではないでしょうか？（冗長な表現）
+  - expected: できます
+    pattern: することができます
+    prh: 冗長な表現ではないでしょうか？（冗長な表現）
+  - expected: できる
+    pattern: することができる
+    prh: 冗長な表現ではないでしょうか？（冗長な表現）
+  - expected: 伺います
+    pattern: 伺わせていただきます
+    prh: 謙譲語の二重敬語（冗長な表現）
+  - expected: 係長
+    patterns:
+      - 係長殿
+      - 係長様
+      - 係長さん
+    prh: 役職名+敬称の二重敬語（冗長な表現）
+  - expected: 召し上がる
+    pattern: 召し上がられる
+    prh: 尊敬語の二重敬語（冗長な表現）
+  - expected: 拝見し
+    pattern: 拝見いたしまして
+    prh: 過剰な敬語（冗長な表現）
+  - expected: 拝見しました
+    pattern: 拝見させていただきました
+    prh: 二重敬語です（冗長な表現）
+  - expected: 拝見します
+    pattern: 拝見させていただきます
+    prh: 謙譲語の二重敬語（冗長な表現）
+  - expected: 社長
+    patterns:
+      - 社長殿
+      - 社長様
+    prh: 役職名+敬称の二重敬語（冗長な表現）
+  - expected: 課長
+    patterns:
+      - 課長殿
+      - 課長様
+      - 課長さん
+    prh: 役職名+敬称の二重敬語（冗長な表現）
+  - expected: 部長
+    patterns:
+      - 部長殿
+      - 部長様
+      - 部長さん
+    prh: 役職名+敬称の二重敬語（冗長な表現）
