@@ -1,0 +1,286 @@
+meta:
+  - title: ウェブ技術に関する固有名詞ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: 、
+    pattern: ，
+    prh: カンマとコンマではなく句点読点を使います（技術用語）
+  - expected: .NET Framework
+    patterns: .NET フレームワーク
+    prh: （技術用語）
+  - expected: 。
+    pattern: ．
+    prh: カンマとコンマではなく句点読点を使います（技術用語）
+  - expected: ActionScript
+    patterns:
+      - Action Script
+      - Actionscript
+    prh: （技術用語）
+  - expected: ActionScript 3.0
+    patterns:
+      - ActionScript3
+      - ActionScript3.0
+    prh: （技術用語）
+  - expected: Adobe AIR
+    patterns:
+      - Adobe Air
+    prh: （技術用語）
+  - expected: Adobe MAX
+    patterns:
+      - Adobe Max
+      - AdobeMax
+      - adobemax
+    prh: （技術用語）
+  - expected: Adobe Photoshop
+    patterns:
+      - adobe photoshop
+    prh: （技術用語）
+  - expected: Adobe XD
+    patterns:
+      - Adobe Xd
+      - Adobe xd
+    prh: （技術用語）
+  - expected: After Effects
+    patterns:
+      - /After Effect(?!([s]))/
+      - /after effect(?!([s]))/
+      - /After effect(?!([s]))/
+      - after effects
+      - After effects
+    prh: （技術用語）
+  - expected: Amazon Web Services
+    patterns:
+      - /Amazon Web Service([^s]|$)/
+    prh: （技術用語）
+  - expected: Bootstrap 4
+    patterns:
+      - Bootstrap4
+    prh: （技術用語）
+  - expected: Chatwork
+    patterns:
+      - Chat Work
+      - ChatWork
+    prh: （技術用語）
+  - expected: DirectX
+    patterns:
+      - Direct X
+      - direct x
+    prh: （技術用語）
+  - expected: ECMAScript
+    patterns:
+      - ECMA Script
+      - EcmaScript
+      - Ecmascript
+    prh: （技術用語）
+  - expected: Facebook
+    patterns:
+      - FaceBook
+    prh: （技術用語）
+  - expected: Firefox
+    patterns: FireFox
+    prh: （技術用語）
+  - expected: GitHub
+    patterns:
+      - Github
+      - github
+      - Git Hub
+      - git hub
+    prh: （技術用語）
+  - expected: Google Maps
+    patterns:
+      - /Google Map(?!([s]))/
+      - /Google map(?!([s]))/
+      - GoogleMap
+      - GoogleMaps
+    prh: （技術用語）
+  - expected: Hyper-V
+    patterns: HyperV
+    prh: （技術用語）
+  - expected: Hyper-V
+    patterns: HyperV
+    prh: （技術用語）
+  - expected: iPhone XR
+    pattern: iPhone Xr
+    prh: （技術用語）
+  - expected: iPhone XS
+    pattern: iPhone Xs
+    prh: （技術用語）
+  - expected: iTunes
+    patterns: /iTune(?!([s]))/
+    prh: （技術用語）
+  - expected: JavaScript
+    patterns:
+      - Javascript
+      - JAVASCRIPT
+      - Java Script
+    prh: （技術用語）
+  - expected: Jetpack
+    patterns:
+      - JetPack
+      - Jet Pack
+      - Jet pack
+    prh: （技術用語）
+  - expected: jQuery
+    patterns:
+      - jquery
+    prh: （技術用語）
+  - expected: Lightroom
+    patterns:
+      - LightRoom
+      - Light Room
+      - Light room
+      - light room
+    prh: （技術用語）
+  - expected: MacBook
+    patterns:
+      - Macbook
+      - Mac Book
+      - Mac book
+    prh: （技術用語）
+  - expected: MacBook Pro
+    patterns:
+      - MacBook pro
+      - MacBookpro
+      - MacBookPro
+    prh: （技術用語）
+  - expected: macOS
+    patterns:
+      - MAC OS X
+      - Mac OS X
+      - OS X
+      - MacOS
+    prh: （技術用語）
+  - expected: Mbps
+    patterns: MBps
+    prh: （技術用語）
+  - expected: Node.js
+    patterns:
+      - Node.JS
+      - NodeJS
+      - NodeJs
+    prh: （技術用語）
+  - expected: OpenID
+    patterns:
+      - Open ID
+      - OPEN ID
+    prh: （技術用語）
+  - expected: OpenType
+    pattern: Open Type
+    prh: （技術用語）
+  - expected: Photoshop
+    patterns:
+      - PhotoShop
+    prh: （技術用語）
+  - expected: PhpStorm
+    patterns:
+      - PHPStorm
+    prh: （技術用語）
+  - expected: PostgreSQL
+    patterns: PostgresSQL
+    prh: （技術用語）
+  - expected: PowerPoint
+    patterns:
+      - Power Point
+      - Powerpoint
+    prh: （技術用語）
+  - expected: PowerShell
+    patterns:
+      - Powershell
+      - Power Shell
+    prh: （技術用語）
+  - expected: Premiere Pro
+    patterns:
+      - premiere pro
+    prh: （技術用語）
+  - expected: Remote Desktop Services
+    patterns: Remote Desktop Service
+    prh: （技術用語）
+  - expected: TrueType
+    pattern: True Type
+    prh: （技術用語）
+  - expected: TypeScript
+    patterns:
+      - Typescript
+      - Type Script
+    prh: （技術用語）
+  - expected: USB Type-C
+    patterns:
+      - USB Type C
+      - usb type c
+    prh: （技術用語）
+  - expected: Visual Studio
+    patterns:
+      - VisualStudio
+      - Visualstudio
+    prh: （技術用語）
+  - expected: Visual Studio Code
+    patterns:
+      - VisualStudio Code
+      - VisualStudioCode
+    prh: （技術用語）
+  - expected: VMware
+    patterns:
+      - Vmware
+      - VM ware
+    prh: （技術用語）
+  - expected: VS Code
+    pattern: VSCode
+    prh: （技術用語）
+  - expected: WebGL
+    patterns:
+      - webgl
+      - Webgl
+      - Web GL
+    prh: （技術用語）
+  - expected: WebGPU
+    patterns:
+      - WebGpu
+    prh: （技術用語）
+  - expected: webpack
+    patterns:
+      - Webpack
+      - WebPack
+    prh: （技術用語）
+  - expected: WebStorm
+    patterns:
+      - WEBStorm
+    prh: （技術用語）
+  - expected: Windows 10
+    patterns: Windows10
+    prh: （技術用語）
+  - expected: Windows 7
+    patterns: Windows7
+    prh: （技術用語）
+  - expected: Windows 8
+    patterns: Windows8
+    prh: （技術用語）
+  - expected: Windows 8.1
+    patterns: Windows8.1
+    prh: （技術用語）
+  - expected: WordPress
+    patterns:
+      - Wordpress
+      - Word Press
+      - word press
+    prh: （技術用語）
+  - expected: Xbox
+    patterns: XBox
+    prh: （技術用語）
+  - expected: YouTube
+    patterns:
+      - Youtube
+      - You Tube
+      - you tube
+    prh: （技術用語）
+  - pattern: インターフェース
+    expected: インターフェイス
+    prh: （技術用語）
+  - expected: ソフトウェア
+    pattern: ソフトウェアー
+    prh: （技術用語）
+  - expected: デフォルト
+    pattern: ディフォルト
+    prh: （技術用語）
+  - expected: ハードウェア
+    pattern: ハードウェアー
+    prh: （技術用語）

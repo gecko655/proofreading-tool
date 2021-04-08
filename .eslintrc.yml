@@ -1,0 +1,36 @@
+---
+
+env:
+  browser: true
+  es6: true
+  node: true
+  jest/globals: true
+extends:
+  - 'eslint:recommended'
+  - 'plugin:vue/essential'
+  - airbnb-base
+  - 'plugin:prettier/recommended'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - vue
+  - jest
+rules:
+  prefer-destructuring: off
+  no-console: off
+  no-loop-func: off
+  prettier/prettier:
+    - error
+    - singleQuote: true
+      trailingComma: all
+      arrowParens: always
+  no-param-reassign:
+    - error
+    - props: false
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true

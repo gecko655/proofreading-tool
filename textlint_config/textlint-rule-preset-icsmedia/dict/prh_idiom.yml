@@ -1,0 +1,482 @@
+meta:
+  - title: 間違いやすい慣用表現ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: アボカド
+    patterns: アボガド
+    prh: （誤字）
+  - expected: いやがうえにも
+    patterns: いやがおうにも
+    prh: （誤字）
+  - expected: ウオツカ
+    patterns: ウオッカ
+    prh: （誤字）
+  - expected: うろおぼえ
+    patterns: うるおぼえ
+    prh: （誤字）
+  - expected: うろ覚え
+    patterns: うる覚え
+    prh: （誤字）
+  - expected: お召し上がりください
+    patterns: ご賞味ください
+    prh: （誤字）
+  - expected: お眼鏡にかなう
+    patterns: お目にかなう
+    prh: （誤字）
+  - expected: コード補完
+    pattern: コード保管
+    prh: （誤字）
+  - expected: こぢんまり
+    patterns: こじんまり
+    prh: （誤字）
+  - expected: コミュニケーション
+    patterns: コミニュケーション
+    prh: （誤字）
+  - expected: ご多分にもれず
+    patterns: ご多聞にもれず
+    prh: （誤字）
+  - expected: ご清聴ありがとう
+    patterns: ご静聴ありがとう
+    prh: （誤字）
+  - expected: しかつめらしい
+    patterns: しかめつらしい
+    prh: （誤字）
+  - expected: したつづみを打つ
+    patterns: したづつみを打つ
+    prh: （誤字）
+  - expected: シミュレーション
+    patterns: シュミレーション
+    prh: （誤字）
+  - patterns: した矢先
+    expected: する矢先
+    prh: （誤字）
+  - expected: そうは問屋が卸さない
+    patterns: そうは問屋が許さない
+    prh: （誤字）
+  - expected: その通り
+    patterns: そのとうり
+    prh: （誤字）
+  - expected: テトラポッド
+    patterns: テトラポット
+    prh: （誤字）
+  - expected: といえども
+    patterns: と言えども
+    prh: （誤字）
+  - expected: ドッジボール
+    patterns: ドッヂボール
+    prh: （誤字）
+  - expected: とんでもないことです
+    patterns: とんでもございません
+    prh: （誤字）
+  - expected: とんぼ返り
+    patterns: とんぼ帰り
+    prh: （誤字）
+  - expected: のべつまくなし
+    patterns: のべつくまなし
+    prh: （誤字）
+  - expected: 三位一体
+    patterns: 三味一体
+    prh: （誤字）
+  - expected: 上には上がある
+    patterns: 上には上がいる
+    prh: （誤字）
+  - expected: 上を下への大騒ぎ
+    patterns: 上や下への大騒ぎ
+    prh: （誤字）
+  - expected: 下にも置かぬ
+    patterns: 上にも置かぬ
+    prh: （誤字）
+  - expected: 不協和音
+    patterns: 不響和音
+    prh: （誤字）
+  - expected: 二つ返事
+    patterns: 一つ返事
+    prh: （誤字）
+  - expected: 二の句が継げない
+    patterns: 二の句が出ない
+    prh: （誤字）
+  - expected: 二の舞いを演ずる
+    patterns: 二の舞いを踏む
+    prh: （誤字）
+  - expected: 二の舞を演じる
+    patterns: 二の舞を踏む
+    prh: （誤字）
+  - expected: 五里霧中
+    patterns: 五里夢中
+    prh: （誤字）
+  - expected: 井の中の蛙
+    patterns: 池の中の蛙
+    prh: （誤字）
+  - expected: 伸るか反るか
+    patterns: 乗るか反るか
+    prh: （誤字）
+  - expected: 体調をくずす
+    patterns: 体調をこわす
+    prh: （誤字）
+  - expected: 体調を崩す
+    patterns: 体調を壊す
+    prh: （誤字）
+  - expected: 侃侃諤諤
+    patterns: 喧々諤々
+    prh: （誤字）
+  - expected: 元旦
+    patterns: 元旦の朝
+    prh: （誤字）
+  - expected: 公算が大きい
+    patterns: 公算が強い
+    prh: （誤字）
+  - expected: 公算が大きい
+    patterns: 公算が強い
+    prh: （誤字）
+  - expected: 最小限
+    patterns: 最少限
+    prh: （誤字）
+  - expected: 最高潮
+    patterns: 最好調
+    prh: （誤字）
+  - expected: 出る杭は打たれる
+    patterns: 出る釘は打たれる
+    prh: （誤字）
+  - expected: 出処進退
+    patterns: 出所進退
+    prh: （誤字）
+  - expected: 勘違い
+    patterns: 感違い
+    prh: （誤字）
+  - expected: 単刀直入
+    patterns: 短刀直入
+    prh: （誤字）
+  - expected: 危機一髪
+    patterns: 危機一発
+    prh: （誤字）
+  - expected: 厚顔無恥
+    patterns: 厚顔無知
+    prh: （誤字）
+  - expected: 原状回復
+    patterns: 現状回復
+    prh: （誤字）
+  - expected: 双璧
+    patterns: 双壁
+    prh: （誤字）
+  - expected: 取り付く島もない
+    patterns: 取り付く暇もない
+    prh: （誤字）
+  - expected: 古式ゆかしい
+    patterns: 古式豊か
+    prh: （誤字）
+  - expected: 台風一過
+    patterns: 台風一家
+    prh: （誤字）
+  - expected: 各位
+    patterns: 各位殿
+    prh: （誤字）
+  - expected: 合いの手を入れる　
+    patterns: 合いの手を打つ
+    prh: （誤字）
+  - expected: 否が応でも
+    patterns: 嫌が応でも
+    prh: （誤字）
+  - expected: 味わわせる　
+    patterns: 味あわせる
+    prh: （誤字）
+  - expected: 噛んで含めるように
+    patterns: 噛んで含むように
+    prh: （誤字）
+  - expected: 囲碁を打つ
+    patterns: 囲碁を指す
+    prh: （誤字）
+  - expected: 堂にいる
+    patterns: 堂にはいる
+    prh: （誤字）
+  - expected: 声を荒らげる
+    patterns: 声を荒げる
+    prh: （誤字）
+  - expected: 天地神明に誓って
+    patterns: 天地天命に誓って
+    prh: （誤字）
+  - expected: 存亡の機
+    patterns: 存亡の危機
+    prh: （誤字）
+  - expected: 孤立無援
+    patterns: 孤立無縁
+    prh: （誤字）
+  - expected: 安く上がる
+    patterns: 安くつく
+    prh: （誤字）
+  - expected: 完璧
+    patterns: 完壁
+    prh: （誤字）
+  - expected: 実入りのいい仕事
+    patterns: 身入りのいい仕事
+    prh: （誤字）
+  - expected: 寝覚めが悪い
+    patterns: 目覚めが悪い
+    prh: （誤字）
+  - expected: 寸暇を惜しんで
+    patterns: 寸暇を惜しまず
+    prh: （誤字）
+  - expected: 対症療法
+    patterns: 対処療法
+    prh: （誤字）
+  - expected: 将棋を指す
+    patterns: 将棋を打つ
+    prh: （誤字）
+  - expected: 年俸
+    patterns: 年棒
+    prh: （誤字）
+  - expected: 弓を引く
+    patterns: 弓矢を引く
+    prh: （誤字）
+  - expected: 弛まぬ努力
+    patterns: 絶え間ぬ努力
+    prh: （誤字）
+  - expected: 後れを取る
+    patterns: 遅れを取る
+    prh: （誤字）
+  - expected: 後ろ盾
+    patterns: 後ろ立て
+    prh: （誤字）
+  - expected: 後足で砂をかける
+    patterns: 後ろ足で砂をかける
+    prh: （誤字）
+  - expected: 心血を注ぐ
+    patterns: 心血を傾ける
+    prh: （誤字）
+  - expected: 必要がある
+    patterns: 必要性がある
+    prh: （誤字）
+  - expected: 念頭に置く
+    patterns: 念頭に入れる
+    prh: （誤字）
+  - expected: 怒り心頭に発する
+    patterns: 怒り心頭に達する
+    prh: （誤字）
+  - expected: 思いもよらない
+    patterns: 思いもつかない
+    prh: （誤字）
+  - expected: 怪我をする
+    patterns: 怪我を負う
+    prh: （誤字）
+  - expected: 愛嬌を振りまく
+    patterns: 愛想を振りまく
+    prh: （誤字）
+  - expected: 愛想が良い
+    patterns: 愛想を振りまく
+    prh: （誤字）
+  - expected: 所期の目的
+    patterns: 初期の目的
+    prh: （誤字）
+  - expected: 押しも押されもせぬ
+    patterns: 押しも押されぬ
+    prh: （誤字）
+  - expected: 数えるほどしかない
+    patterns: 数えられるほどしかない
+    prh: （誤字）
+  - expected: 新規蒔き直し
+    patterns: 新規巻き返し
+    prh: （誤字）
+  - expected: 明るみに出る　
+    patterns: 明るみになる
+    prh: （誤字）
+  - expected: 未だに
+    patterns: 今だに
+    prh: （誤字）
+  - expected: 極め付き
+    patterns: 極めつけ
+    prh: （誤字）
+  - expected: 歯牙にもかけない
+    patterns: 鼻にもかけない
+    prh: （誤字）
+  - expected: 汚名を返上
+    patterns: 汚名を挽回
+    prh: （誤字）
+  - expected: 汚名を雪ぐ
+    patterns: 汚名を晴らす
+    prh: （誤字）
+  - expected: 汚名返上
+    patterns: 汚名挽回
+    prh: （誤字）
+  - expected: 沿岸
+    patterns: 沿岸ぞい
+    prh: （誤字）
+  - expected: 泥仕合
+    patterns: 泥試合
+    prh: （誤字）
+  - expected: 消息を絶つ
+    patterns: 消息を断つ
+    prh: （誤字）
+  - expected: 濡れ手で粟
+    patterns:
+      - 濡れ手で泡
+      - 濡れ手に粟
+    prh: （誤字）
+  - expected: 火を見るよりも明らか
+    patterns: 非を見るよりも明らか
+    prh: （誤字）
+  - expected: 火蓋が切られる
+    patterns: 火蓋が切って落とされる
+    prh: （誤字）
+  - expected: 無理からぬ
+    patterns: 無理ならぬ
+    prh: （誤字）
+  - expected: 焼けぼっくいに火が付く
+    patterns: 焼けぼっくりに火が付く
+    prh: （誤字）
+  - expected: 熱にうかされる
+    patterns: 熱にうなされる
+    prh: （誤字）
+  - expected: 黙秘権
+    patterns: 黙否権
+    prh: （誤字）
+  - expected: 物議を醸す
+    patterns: 物議を呼ぶ
+    prh: （誤字）
+  - expected: 玄人はだし
+    patterns: 素人はだし
+    prh: （誤字）
+  - expected: 異存はない　
+    patterns: 異存は出ない
+    prh: （誤字）
+  - expected: 的を射る
+    patterns: 的を得る
+    prh: （誤字）
+  - expected: 目端が利く
+    patterns: 目鼻がきく
+    prh: （誤字）
+  - expected: 眉をひそめる
+    patterns: 眉をしかめる
+    prh: （誤字）
+  - expected: 石にかじり付いてでも　
+    patterns: 石にしがみ付いてでも
+    prh: （誤字）
+  - expected: 社交辞令
+    patterns: 社交辞礼
+    prh: （誤字）
+  - expected: 立つ鳥跡を濁さず
+    patterns: 飛ぶ鳥跡を濁さず
+    prh: （誤字）
+  - expected: 笑みがこぼれた
+    patterns: 笑顔がこぼれた
+    prh: （誤字）
+  - expected: 等身大
+    patterns: 頭身大
+    prh: （誤字）
+  - expected: 精根尽きる
+    patterns: 精魂尽きる
+    prh: （誤字）
+  - expected: 絶体絶命
+    patterns: 絶対絶命
+    prh: （誤字）
+  - expected: 肝に銘じる
+    patterns: 肝に命じる
+    prh: （誤字）
+  - expected: 胸三寸
+    patterns: 胸先三寸
+    prh: （誤字）
+  - expected: 脚光を浴びる
+    patterns: 脚光を集める
+    prh: （誤字）
+  - expected: 腸が煮えくり返る
+    patterns: 腹が煮えくり返る
+    prh: （誤字）
+  - expected: 興味津々
+    patterns: 興味深々
+    prh: （誤字）
+  - expected: 舌つづみ
+    patterns: 舌づつみ
+    prh: （誤字）
+  - expected: 舌の根の乾かぬうちに
+    patterns: 舌の先の乾かぬうちに
+    prh: （誤字）
+  - expected: 舌先三寸
+    patterns: 口先三寸
+    prh: （誤字）
+  - expected: 被害を受ける
+    patterns: 被害を被る
+    prh: （誤字）
+  - expected: 見かけ倒し
+    patterns: 見かけ倒れ
+    prh: （誤字）
+  - expected: 見掛け倒し
+    patterns: 見掛け倒れ
+    prh: （誤字）
+  - expected: 親不孝
+    patterns: 親不幸
+    prh: （誤字）
+  - expected: 触手を伸ばす
+    patterns: 食指を伸ばす
+    prh: （誤字）
+  - expected: 言わざるを得ない
+    patterns: 言わざるを負えない
+    prh: （誤字）
+  - expected: 言葉を濁す
+    patterns: 口を濁す
+    prh: （誤字）
+  - expected: 論陣を張る
+    patterns: 論戦を張る
+    prh: （誤字）
+  - expected: 責任を追及
+    patterns: 責任を追求
+    prh: （誤字）
+  - expected: 足げにする
+    patterns: 足げりにする
+    prh: （誤字）
+  - expected: 足をすくう
+    patterns: 足元をすくう
+    prh: （誤字）
+  - expected: 足をすくわれる　
+    patterns: 足元をすくわれる
+    prh: （誤字）
+  - expected: 身の回り
+    patterns: 身の周り
+    prh: （誤字）
+  - expected: 身をこにして
+    patterns: 身をこなにして
+    prh: （誤字）
+  - expected: 道理で
+    patterns: どおりで
+    prh: （誤字）
+  - expected: 違和感を覚える
+    patterns: 違和感を感じる
+    prh: （誤字）
+  - expected: 酒を酌み交わす
+    patterns: 酒を飲み交わす
+    prh: （誤字）
+  - expected: 采配を振る
+    patterns: 采配をふるう
+    prh: （誤字）
+  - expected: 間が持てない
+    patterns: 間が持たない
+    prh: （誤字）
+  - expected: 雪辱を果たす
+    patterns: 雪辱を晴らす
+  - patterns: 青田刈り
+    expected: 青田買い
+    prh: （誤字）
+  - expected: 願わくは
+    patterns: 願わくば
+    prh: （誤字）
+  - expected: 風の便り
+    patterns: 風の噂
+    prh: （誤字）
+  - expected: 風上に置けない
+    patterns: 風下に置けない
+    prh: （誤字）
+  - expected: 食指が動く
+    patterns: 食指をそそられる
+    prh: （誤字）
+  - expected: 首をかしげる
+    patterns: 頭をかしげる
+    prh: （誤字）
+  - expected: 首を傾げる
+    patterns: 頭を傾げる
+    prh: （誤字）
+  - expected: 馬子にも衣装
+    patterns: 孫にも衣装
+    prh: （誤字）
+  - expected: 馬脚を露す
+    patterns: 馬脚を出す
+    prh: （誤字）
+  - expected: 高嶺の花
+    patterns: 高値の花
+    prh: （誤字）

@@ -1,0 +1,66 @@
+meta:
+  - title: 社名やブランド名などの固有名詞ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: アメリカン・エキスプレス
+    patterns: アメリカン・エクスプレス
+    prh: （固有名詞）
+  - expected: エドウイン
+    patterns: エドウィン
+    prh: （固有名詞）
+  - expected: キヤノン
+    patterns: キャノン
+    prh: （固有名詞）
+  - expected: キユーピー
+    patterns: キューピー
+    prh: （固有名詞）
+  - expected: シヤチハタ株
+    patterns: シャチハタ株
+    prh: （固有名詞）
+  - expected: セブン–イレブン
+    patterns: セブンイレブン
+    prh: （固有名詞）
+  - expected: ドン・キホーテ
+    patterns: ドンキホーテ
+    prh: （固有名詞）
+  - expected: ニッカウヰスキー
+    patterns: ニッカウイスキー
+    prh: （固有名詞）
+  - expected: ビックカメラ
+    patterns: ビッグカメラ
+    prh: （固有名詞）
+  - expected: ブリヂストン
+    patterns: ブリジストン
+    prh: （固有名詞）
+  - expected: 三菱レイヨン
+    patterns: 三菱レーヨン
+    prh: （固有名詞）
+  - expected: 味の素ゼネラルフーヅ
+    patterns: 味の素ゼネラルフーズ
+    prh: （固有名詞）
+  - expected: 大平洋金属
+    patterns: 太平洋金属
+    prh: （固有名詞）
+  - expected: 富士フイルム
+    patterns:
+      - 富士フィルム
+      - フジフイルム
+      - フジフィルム
+    prh: （固有名詞）
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+    prh: （固有名詞）
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+    prh: （固有名詞）
+  - expected: 暮しの手帖
+    patterns:
+      - 暮らしの手帳
+      - 暮しの手帳
+    prh: （固有名詞）
+  - expected: 東京ビッグサイト
+    patterns: 東京ビックサイト
+    prh: （固有名詞）
+  - expected: 青春18きっぷ
+    patterns: 青春18切符
+    prh: （固有名詞）

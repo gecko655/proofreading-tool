@@ -1,0 +1,88 @@
+{
+  "name": "proofreading-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "pdf, docx, pptx等のファイルを直接入力できる文書校正ツール",
+  "main": "main.js",
+  "author": "adtech-dev@mixi.co.jp",
+  "license": "GPLv2 or v3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsterstrike/proofreading-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monsterstrike/proofreading-tool/issues"
+  },
+  "homepage": "https://github.com/monsterstrike/proofreading-tool#readme",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-prod": "webpack --env production",
+    "webpack-watch": "webpack --watch",
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "pack-win": "electron-builder --dir --win",
+    "dist-win": "electron-builder --win",
+    "lint": "eslint main.js lib/ assets/js webpack.config.js",
+    "lint-fix": "eslint --fix main.js lib/ assets/js webpack.config.js"
+  },
+  "dependencies": {
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^1.0.1",
+    "@textlint-ja/textlint-rule-no-insert-re": "^1.0.0",
+    "bootstrap": "^4.6.0",
+    "chrono-node": "^1.4.3",
+    "electron-is-packaged": "^1.0.2",
+    "electron-root-path": "^1.0.16",
+    "glob": "^7.1.6",
+    "jquery": "^3.6.0",
+    "mark.js": "^8.11.1",
+    "minimist": "^1.2.5",
+    "popper.js": "^1.16.1",
+    "textlint": "^11.3.1",
+    "textlint-rule-date-weekday-mismatch": "^1.0.5",
+    "textlint-rule-ja-no-abusage": "^2.0.0",
+    "textlint-rule-ja-no-successive-word": "^1.1.0",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
+    "textlint-rule-preset-japanese": "^4.0.4",
+    "textract": "^2.5.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "electron": "^12.0.2",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.4",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.8.0",
+    "jest": "^26.6.3",
+    "mini-css-extract-plugin": "^1.4.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "build": {
+    "appId": "jp.mixi.proofreading-tool",
+    "productName": "文書校正ツール",
+    "extraResources": [
+      {
+        "from": "build/${os}/bin",
+        "to": "bin",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "textlint_config",
+        "to": "textlint_config",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ]
+  }
+}
