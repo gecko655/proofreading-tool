@@ -1,0 +1,19 @@
+---
+
+rules:
+  preset-japanese:
+    sentence-length: false
+    max-ten: false
+    no-doubled-joshi: false
+    no-doubled-conjunction: true
+    no-invalid-control-character: true
+  ja-no-successive-word: true
+  ja-no-abusage: true
+  ja-unnatural-alphabet: true
+  "@textlint-ja/textlint-rule-no-insert-re": true
+  "@textlint-ja/textlint-rule-no-insert-dropping-sa": true
+  date-weekday-mismatch: true
+  prh:
+    rulePaths:
+      - "./textlint-rule-preset-icsmedia/dict/prh.yml"
+      - "./prh.yml"

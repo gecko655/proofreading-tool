@@ -1,0 +1,6 @@
+node_modules
+assets/dist/
+!assets/dist/.keep
+
+dist
+!dist/.keep

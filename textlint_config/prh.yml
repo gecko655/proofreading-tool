@@ -1,0 +1,86 @@
+---
+
+version: 1
+rules:
+  - expected: XFLAG （エックスフラッグ） は株式会社ミクシィが展開するエンターテインメント事業ブランドです。
+    patterns:
+      - エンターテインメント事業のさらなる発展を図るため、2015年8月、株式会社ミクシィ内にブランド「XFLAG」を立ち上げました。
+
+  - expected: 代表取締役社長
+    patterns:
+      - 代表取締役社長執行役員
+  - expected: 「モンスターストライク」や「共闘ことば RPG コトダマン」などを提供するほか、
+    patterns:
+      - 「モンスターストライク」や「ファイトリーグ」を提供するほか、
+  - expected: エルニーTOSSY
+    patterns:
+      - えるにーTOSSY
+  - expected: cyu_yan
+    patterns:
+      - cyu\-yan
+  - expected: 木村 弘毅 or 木村 弘毅 （きむら こうき）
+    patterns:
+      - 木村.?こうき
+      - きむら.?こうき
+  - expected: XFLAG
+    patterns:
+      - XFLAG.?スタジオ
+  - expected: https://
+    patterns:
+      - http://
+  - expected: モンストドリームカンパニー
+    patterns:
+      - モンスト ドリームカンパニー
+  - expected: モンスターストライク スタジアム
+    patterns:
+      - モンストスタジアム
+      - モンスターストライクスタジアム
+  - expected: モンスト公式YouTubeチャンネル
+    patterns:
+      - モンストYouTubeチャンネル
+  - expected: モンストアニメ公式YouTubeチャンネル
+    patterns:
+      - モンストアニメYouTubeチャンネル
+  - expected: さまざま
+    patterns:
+      - 様々
+  - expected: します
+    patterns:
+      - いたします
+      - 致します
+  - expected: たくさん
+    patterns:
+      - 沢山
+  - expected: 友だち
+    patterns:
+      - 友達
+  - expected: モンストアプリ内アイテム
+    patterns:
+      - ゲーム内アイテム
+  - expected: 賞品
+    patterns:
+      - 豪華賞品
+  - expected: 商品
+    patterns:
+      - 人気商品
+  - expected: XFLAG STORE +
+    patterns:
+      - XFLAG ?STORE ?\\+\\(PLUS\\)
+  - expected: 4Sleepers
+    patterns:
+      - 4sleepers
+  - expected: AliceWithAce
+    patterns:
+      - Alice With Ace
+  - expected: 5,400万人
+    patterns:
+      - 5,300万人
+      - 5,200万人
+      - 5,100万人
+      - 5,000万人
+      - 4,900万人
+      - 4,500万人
+  - expected: エンターテインメント
+    patterns:
+      - エンタテインメント
+      - エンターテイメント

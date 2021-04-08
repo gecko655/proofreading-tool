@@ -1,0 +1,2 @@
+build/mac/bin/* filter=lfs diff=lfs merge=lfs -text
+build/win/bin/* filter=lfs diff=lfs merge=lfs -text
