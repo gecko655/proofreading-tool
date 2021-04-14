@@ -30,5 +30,8 @@ npm run dist # or `npm run dist-win`
 ビルドされたファイルは `dist/` フォルダ下に吐かれるはず。
 
 # ライセンスについて
-このツールで使用している[xpdf(pdftotext)](https://www.xpdfreader.com/)がGPLv2 or v3 licenseのため、このツールを外部に再配布する際はGPLv2 or v3 licenseで配布する必要がある。
-社内共有のみの場合は気にする必要はない。
+[LICENSE](LICENSE)
+このツールではGPLv3 licenseである[xpdf(pdftotext)](https://www.xpdfreader.com/)を利用している。
+
+# special thanks
+https://github.com/mixigroup
