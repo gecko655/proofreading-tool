@@ -30,7 +30,7 @@ npm run dist # or `npm run dist-win`
 ビルドされたファイルは `dist/` フォルダ下に吐かれるはず。
 
 # ライセンスについて
-[LICENSE](LICENSE)
+[LICENSE](LICENSE)  
 このツールではGPLv3 licenseである[xpdf(pdftotext)](https://www.xpdfreader.com/)を利用している。
 
 # special thanks
