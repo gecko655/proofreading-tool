@@ -1,37 +1,46 @@
 proofreading-tool
 ===
 
+[![CircleCI](https://circleci.com/gh/gecko655/proofreading-tool.svg?style=shield)](https://circleci.com/gh/geckot655/proofreading-tool)
+
+
 GUIで動作する文書校正ツール
+GUI tool for textlinting.
 
-# ビルド方法
+# Install
+https://github.com/gecko655/proofreading-tool/releases
 
-## 開発環境構築
+# How to build
+
+## Prepare
 ```bash
-# 依存関係の取得
+# Fetch dependencies
 npm install
-# webpackのビルド
+# Build webpack
 npm run webpack # or `npm run webpack-prod` or `npm run webpack-watch`
 ```
 
-## デバッグ実行
+## Debug
 ```bash
 npm start
 ```
 
-## テスト
+## Test
 ```bash
-npm run lint # or `npm run lint-fix` (prettierの機能でlint修正が自動適用される)
+npm run lint # or `npm run lint-fix` (prettier fixes the code format)
 ```
 
-## アプリのビルド
+## Build for production
 ```bash
+npm run webpack-prod
 npm run dist # or `npm run dist-win`
 ```
-ビルドされたファイルは `dist/` フォルダ下に吐かれるはず。
+The build artifacts should be located under the `dist/` folder.
 
-# ライセンスについて
-[LICENSE](LICENSE)  
-このツールではGPLv3 licenseである[xpdf(pdftotext)](https://www.xpdfreader.com/)を利用している。
+# LICENSE
+This software is released under [GPLv3 LICENSE](LICENSE).
+
+This software uses [xpdf(pdftotext)](https://www.xpdfreader.com/), which is released under GPLv3 license.
 
 # special thanks
 https://github.com/mixigroup
