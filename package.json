@@ -1,10 +1,10 @@
 {
   "name": "proofreading-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "pdf, docx, pptx等のファイルを直接入力できる文書校正ツール",
   "main": "main.js",
-  "author": "TBD",
+  "author": "aqwsedrfr1234@yahoo.co.jp",
   "license": "GPLv3",
   "repository": {
     "type": "git",
@@ -66,7 +66,7 @@
     "webpack-cli": "^4.6.0"
   },
   "build": {
-    "appId": "TBD",
+    "appId": "tokyo.gecko655.proofreading-tool",
     "productName": "文書校正ツール",
     "extraResources": [
       {
