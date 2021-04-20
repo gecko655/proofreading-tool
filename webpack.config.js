@@ -12,6 +12,8 @@ module.exports = (env) => {
 
     context: path.join(__dirname, 'assets'),
 
+    entry: {}, // 後で設定する
+
     target: 'electron-renderer', // これをするとrendererでfsが使えるようになる
 
     output: {
