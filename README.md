@@ -40,7 +40,7 @@ The build artifacts should be located under the `dist/` folder.
 ## Release
 
 - Edit package.json to update version number.
-- Push tag with the same version number with prefix 'x'.
+- Push tag with the same version number with prefix 'v'.
 ```bash
 git tag vX.Y.Z
 git push --tags
