@@ -27,13 +27,13 @@ npm start
 
 ## Test
 ```bash
-npm run lint # or `npm run lint-fix` (prettier fixes the code format)
+npm run lint # or `npm run lint:fix` (prettier fixes the code format)
 ```
 
 ## Build for production
 ```bash
 npm run webpack-prod
-npm run dist # or `npm run dist-win`
+npm run dist:win # or `npm run dist:win`
 ```
 The build artifacts should be located under the `dist/` folder.
 
