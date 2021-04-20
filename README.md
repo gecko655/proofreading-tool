@@ -1,7 +1,7 @@
 proofreading-tool
 ===
 
-[![CircleCI](https://circleci.com/gh/gecko655/proofreading-tool.svg?style=shield)](https://circleci.com/gh/geckot655/proofreading-tool)
+[![Build/release](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml/badge.svg)](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml)
 
 
 GUIで動作する文書校正ツール
