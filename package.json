@@ -8,12 +8,12 @@
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monsterstrike/proofreading-tool.git"
+    "url": "git+https://github.com/gecko655/proofreading-tool.git"
   },
   "bugs": {
-    "url": "https://github.com/monsterstrike/proofreading-tool/issues"
+    "url": "https://github.com/gecko655/proofreading-tool/issues"
   },
-  "homepage": "https://github.com/monsterstrike/proofreading-tool#readme",
+  "homepage": "https://github.com/gecko655/proofreading-tool#readme",
   "scripts": {
     "webpack": "webpack",
     "webpack-prod": "webpack --env production",
@@ -25,8 +25,7 @@
     "pack:win": "electron-builder --dir --win",
     "dist:mac": "electron-builder --mac",
     "dist:win": "electron-builder --win",
-    "publish:mac": "electron-builder --publish --mac",
-    "publish:win": "electron-builder --publish --win",
+    "publish:all": "electron-builder --publish onTagOrDraft --mac --win",
     "lint": "eslint main.js lib/ assets/js webpack.config.js",
     "lint:fix": "eslint --fix main.js lib/ assets/js webpack.config.js"
   },
@@ -91,21 +90,34 @@
     ],
     "mac": {
       "target": [
-        {"target": "dmg"},
-        {"target": "pkg"}
+        {
+          "target": "dmg"
+        },
+        {
+          "target": "pkg"
+        }
       ],
-      "publish": ["github"]
+      "publish": [
+        "github"
+      ]
     },
     "win": {
       "target": [
-        {"target": "nsis"},
-        {"target": "zip"}
+        {
+          "target": "nsis"
+        },
+        {
+          "target": "zip"
+        }
       ],
-      "publish": ["github"]
+      "publish": [
+        "github"
+      ]
     },
     "publish": {
       "provider": "github",
-      "releaseType": "release"
+      "releaseType": "release",
+      "vPrefixedTagName": true
     }
   }
 }
