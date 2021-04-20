@@ -38,12 +38,16 @@ npm run dist:mac # or `npm run dist:win`
 The build artifacts should be located under the `dist/` folder.
 
 ## Release
+
+- Edit package.json to update version number.
+- Push tag with the same version number with prefix 'x'.
 ```bash
-export GITHUB_TOKEN=xxxxxxxxx
 git tag vX.Y.Z
-npm run webpack-prod
-npm run publish:all
+git push --tags
 ```
+
+- [GitHub Action](https://github.com/gecko655/proofreading-tool/actions) creates a [draft release](https://github.com/gecko655/proofreading-tool/releases)
+- Release the draft.
 
 # LICENSE
 This software is released under [GPLv3 LICENSE](LICENSE).
