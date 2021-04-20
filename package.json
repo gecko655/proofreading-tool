@@ -45,7 +45,7 @@
     "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
     "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
     "textlint-rule-preset-japanese": "^4.0.4",
-    "textract": "^2.5.0",
+    "textract": "^2.4.0",
     "vue": "^2.6.12",
     "vue-loader": "^15.9.6"
   },
