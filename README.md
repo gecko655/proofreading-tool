@@ -4,6 +4,9 @@ proofreading-tool
 [![Build/release](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml/badge.svg)](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml)
 
 
+![proofreading-tool-demo](https://user-images.githubusercontent.com/6166778/116985820-f616d580-ad07-11eb-971f-60ec887cff67.gif)
+
+
 GUIで動作する文書校正ツール
 GUI tool for textlinting.
 
