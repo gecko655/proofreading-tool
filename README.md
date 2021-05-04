@@ -10,6 +10,10 @@ proofreading-tool
 GUIで動作する文書校正ツール
 GUI tool for textlinting.
 
+# Usage
+
+https://gecko655.hatenablog.com/entry/proofreading-tool
+
 # Install
 https://github.com/gecko655/proofreading-tool/releases
 
