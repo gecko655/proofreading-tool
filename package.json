@@ -1,6 +1,6 @@
 {
   "name": "proofreading-tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "pdf, docx, pptx等のファイルを直接入力できる文書校正ツール",
   "main": "main.js",
