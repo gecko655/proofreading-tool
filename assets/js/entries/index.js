@@ -1,12 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Vue from 'vue';
-import 'bootstrap';
-
-import Mark from 'mark.js';
-
-import { ipcRenderer } from 'electron';
-
 Vue.directive('highlight-range', (el, binding) => {
   const markInstance = new Mark(el);
   const indices = binding.arg.ViolatedIndices;
@@ -38,7 +29,7 @@ const vue = new Vue({
       this.fileName = '';
       this.errorMsg = '';
       this.isUploading = true;
-      ipcRenderer.invoke('proofread', file.path).then((proofreadResult) => {
+      window.api.proofread(file.path).then((proofreadResult) => {
         console.log(proofreadResult);
         if (proofreadResult.errorMsg != null) {
           this.errorMsg = proofreadResult.errorMsg;
@@ -55,7 +46,7 @@ const vue = new Vue({
       return this.fileName.length > 0;
     },
     openTextlintConfig() {
-      ipcRenderer.send('openTextlintConfig');
+      window.api.openTextlintConfig();
     },
   },
 });
