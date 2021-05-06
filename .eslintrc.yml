@@ -13,6 +13,8 @@ extends:
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
+  Vue: readonly
+  Mark: readonly
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
