@@ -82,7 +82,12 @@ app.on('ready', () => {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 675,
-    webPreferences: { nodeIntegration: true, contextIsolation: false }, // renderプロセスでrequire()を使うのに必要
+    webPreferences: {
+      nodeIntegration: false,
+      contextIsolation: true,
+      worldSafeExecuteJavaScript: true,
+      preload: path.join(__dirname, 'preload.js'),
+    },
   });
   mainWindow.loadURL(`file://${__dirname}/index.html`);
   mainWindow.on('closed', () => {
