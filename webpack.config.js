@@ -15,9 +15,7 @@ module.exports = (env) => {
 
     output: {
       path: path.join(__dirname, '/assets/dist'),
-      filename: ({ chunk }) => {
-        return '[name]';
-      },
+      filename: '[name]',
     },
     resolve: {
       extensions: ['.js'],
