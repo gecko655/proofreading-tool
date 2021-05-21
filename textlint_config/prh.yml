@@ -11,3 +11,6 @@ rules:
   - expected: ウイルス
     patterns: 
       - ウィルス
+  - expected: ($1)
+    pattern: 
+      - /（([0-9])+）/
