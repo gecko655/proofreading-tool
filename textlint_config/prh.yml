@@ -2,7 +2,7 @@
 
 version: 1
 rules:
-# 設定例
+  # 設定例
   - expected: ハードウェア
     patterns:
       - ハードウエアー
