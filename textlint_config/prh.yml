@@ -1,10 +1,13 @@
----
+﻿---
 
 version: 1
 rules:
-  # 設定例
+  # 設定
   - expected: ハードウェア
-    patterns:
+    patterns: 
       - ハードウエアー
       - ハードウェアー
       - ハードウエア
+  - expected: ウイルス
+    patterns: 
+      - ウィルス
