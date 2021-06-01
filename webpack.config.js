@@ -1,5 +1,6 @@
 const path = require('path');
 const glob = require('glob');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = (env) => {
   const isProduction = env && env.production;
@@ -9,14 +10,45 @@ module.exports = (env) => {
 
     context: path.join(__dirname, 'assets'),
 
-    entry: {}, // 後で設定する
+    entry: {
+      vendor: [
+        'bootstrap',
+        'mark.js',
+        // 'vue', // FIXME: なぜかvueはwebpackでビルドしても`Vue`への参照が見えない。node_modules/から直接jsを参照することにする
+        'bootstrap/dist/css/bootstrap.css',
+      ],
+    }, // appは後で設定する
 
     target: 'web',
 
     output: {
       path: path.join(__dirname, '/assets/dist'),
-      filename: '[name]',
+      filename: ({ chunk }) => {
+        if (chunk.name === 'vendor') return '[name].bundle.js';
+        return '[name]';
+      },
     },
+    module: {
+      rules: [
+        {
+          test: /\.css$/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            {
+              loader: 'css-loader',
+            },
+          ],
+        },
+      ],
+    },
+    plugins: [
+      new MiniCssExtractPlugin({
+        filename: ({ chunk }) => {
+          if (chunk.name === 'vendor') return '[name].bundle.css';
+          return '[name]';
+        },
+      }),
+    ],
     resolve: {
       extensions: ['.js'],
       modules: ['node_modules'],
