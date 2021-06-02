@@ -11,12 +11,7 @@ module.exports = (env) => {
     context: path.join(__dirname, 'assets'),
 
     entry: {
-      vendor: [
-        'bootstrap',
-        'mark.js',
-        // 'vue', // FIXME: なぜかvueはwebpackでビルドしても`Vue`への参照が見えない。node_modules/から直接jsを参照することにする
-        'bootstrap/dist/css/bootstrap.css',
-      ],
+      vendor: ['bootstrap', 'bootstrap/dist/css/bootstrap.css'],
     }, // appは後で設定する
 
     target: 'web',
