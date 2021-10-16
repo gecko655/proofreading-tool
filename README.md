@@ -2,7 +2,8 @@ proofreading-tool
 ===
 
 [![Build/release](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml/badge.svg)](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml)
-
+![Github All Releases](https://img.shields.io/github/downloads/gecko655/proofreading-tool/total.svg)
+(Download count not included for v1.0.4 or earlier versions)
 
 ![proofreading-tool-demo](https://user-images.githubusercontent.com/6166778/116985820-f616d580-ad07-11eb-971f-60ec887cff67.gif)
 
