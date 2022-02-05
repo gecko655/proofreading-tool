@@ -1,6 +1,6 @@
 {
   "name": "proofreading-tool",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": true,
   "description": "pdf, docx, pptx等のファイルを直接入力できる文書校正ツール",
   "main": "main.js",
@@ -41,16 +41,16 @@
     "mark.js": "^8.11.1",
     "minimist": "^1.2.5",
     "popper.js": "^1.16.1",
-    "textlint": "^11.3.1",
+    "textlint": "^12.1.0",
     "textlint-rule-date-weekday-mismatch": "^1.0.5",
     "textlint-rule-ja-no-abusage": "^2.0.0",
     "textlint-rule-ja-no-successive-word": "^1.1.0",
     "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
     "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
     "textlint-rule-preset-japanese": "^4.0.4",
-    "textract": "^2.4.0",
+    "textract": "^2.5.0",
     "vue": "^2.6.12",
-    "vue-loader": "^15.9.6"
+    "vue-loader": "^17.0.0"
   },
   "devDependencies": {
     "css-loader": "^5.2.0",
