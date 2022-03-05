@@ -3,7 +3,7 @@ const { TextLintEngine } = require('textlint');
 const { exec } = require('child_process');
 const util = require('util');
 const path = require('path');
-const textract = require('textract');
+const textract = require('@nosferatu500/textract');
 const { execFilePath, resourceFilePath } = require('./lib/binaries');
 
 const configDirPath = resourceFilePath('textlint_config');
