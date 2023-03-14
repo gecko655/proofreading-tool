@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v3
+        with:
+          lfs: true
 
       - name: Install Node.js, NPM and Yarn
         uses: actions/setup-node@v3
