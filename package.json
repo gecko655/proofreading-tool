@@ -55,7 +55,7 @@
   "devDependencies": {
     "css-loader": "^5.2.0",
     "electron": "^23.1.1",
-    "electron-builder": "^23.6.0",
+    "electron-builder": "^24.2.0",
     "eslint": "^7.23.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.1.0",
