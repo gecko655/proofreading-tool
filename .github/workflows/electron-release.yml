@@ -16,15 +16,15 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node.js, NPM and Yarn
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
 
       - name: Webpack build
-        run: npm install && npm run webpack-prod
+        run: yarn install && yarn webpack-prod
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1

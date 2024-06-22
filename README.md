@@ -23,25 +23,25 @@ https://github.com/gecko655/proofreading-tool/releases
 ## Prepare
 ```bash
 # Fetch dependencies
-npm install
+yarn install
 # Build webpack
-npm run webpack # or `npm run webpack-prod` or `npm run webpack-watch`
+yarn webpack # or `npm run webpack-prod` or `npm run webpack-watch`
 ```
 
 ## Debug
 ```bash
-npm start
+yarn  start
 ```
 
 ## Test
 ```bash
-npm run lint # or `npm run lint:fix` (prettier fixes the code format)
+yarn lint # or `npm run lint:fix` (prettier fixes the code format)
 ```
 
 ## Build for production
 ```bash
-npm run webpack-prod
-npm run dist:mac # or `npm run dist:win`
+yarn webpack-prod
+yarn dist:mac # or `npm run dist:win`
 ```
 The build artifacts should be located under the `dist/` folder.
 
