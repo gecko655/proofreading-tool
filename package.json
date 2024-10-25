@@ -49,7 +49,7 @@
     "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
     "textlint-rule-preset-japanese": "^4.0.4",
     "@nosferatu500/textract": "^3.0.3",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-loader": "^17.0.0"
   },
   "devDependencies": {
