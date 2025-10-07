@@ -1,6 +1,14 @@
 proofreading-tool
 ===
 
+# Archived (2025-10-07)
+
+LLM の台頭により、このツールは役目を終えたものと思います。
+ご利用いただきありがとうございました。
+
+---
+
+
 [![Build/release](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml/badge.svg)](https://github.com/gecko655/proofreading-tool/actions/workflows/electron-release.yml)
 ![Github All Releases](https://img.shields.io/github/downloads/gecko655/proofreading-tool/total.svg)
 (Download count not included for v1.0.4 or earlier versions)
